@@ -18,7 +18,7 @@ home = [ "HTML", "RSS", "JSON"]
   
 [Languages]
 [Languages.en]
-title = "KUBERNETES ON AWS WORKSHOP"
+title = "AWS Workshop - Data Migration"
 weight = 1
 languageName = "English"
 
