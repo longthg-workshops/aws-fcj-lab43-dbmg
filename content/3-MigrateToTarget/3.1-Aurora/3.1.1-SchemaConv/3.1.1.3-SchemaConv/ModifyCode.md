@@ -1,8 +1,8 @@
 ---
 title: "Modify the Procedural Code"
-weight: 4
+weight: 1
 chapter: false
-pre: "<b> 3.1.1.4. </b>"
+pre: "<b>  </b>"
 ---
 
 In this part, we support modifying the procedural code for SQL Server that Schema Conversion Tool could not automatically convert for the target database dialect.
