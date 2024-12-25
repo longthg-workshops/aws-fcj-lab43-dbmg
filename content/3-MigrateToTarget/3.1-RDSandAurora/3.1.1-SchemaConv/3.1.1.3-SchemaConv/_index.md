@@ -7,7 +7,7 @@ pre: "<b> 3.1.1.3. </b>"
 
 Now that you have created a new Database Migration Project, the next step is to convert the schema of the source database to the Amazon Aurora MYSQL.
 
-1. Click on DMS_SAMPLE schema from source on the left hand side of screen
+1. Click on **_DMS_SAMPLE_** schema from source on the left hand side of screen
 
     {{% expand ">> For Oracle Source expand here" %}}
 
@@ -46,7 +46,10 @@ Now that you have created a new Database Migration Project, the next step is to 
     1. Modify the objects on the source database so that AWS SCT can convert the objects to the target Aurora MySQL database.
     2. Instead of modifying the source schema, modify scripts that AWS SCT generates before applying the scripts on the target Aurora MySQL database.
 
-    However, for the sake of time, we skip modifying all the objects that could not be automatically converted. Instead, as an example, you will manually modify one of the stored procedures from within SCT to make it compatible with the target database. This is demonstrated in this subsection:
+    However, for the sake of time, we skip modifying all the objects that could not be automatically converted. Instead, as an example, you will manually modify one of the stored procedures from within SCT to make it compatible with the target database. 
+    
+    This is demonstrated in this subsection:
+
     {{% expand ">> Expand this" %}}
     {{% children description="true" /%}}
     {{% /expand %}}

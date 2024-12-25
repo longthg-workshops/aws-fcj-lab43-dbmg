@@ -1,8 +1,8 @@
 ---
 title: "Amazon S3 Target"
-weight: 3
+weight: 2
 chapter: false
-pre: "<b> 3.3. </b>"
+pre: "<b> 3.2. </b>"
 ---
 
 This section is a step-by-step guide which demonstrates how you can use **AWS Database Migration Service (DMS)** to migrate data to **Amazon Simple Storage Service (Amazon S3)** bucket. Additionally, you will use AWS DMS to continually replicate database changes from the source database to the target S3 bucket.
