@@ -1,5 +1,5 @@
 ---
-title: "Connect to the EC2 Instance and install the Schema Converted tool"
+title: "Connect to the EC2 Instance and install the Schema Conversion tool"
 weight: 4
 chapter: false
 pre: "<b> 1.4. </b>"
@@ -122,6 +122,8 @@ Reconnected the EC2 instance we used to prepare the source database via rdp or F
 1. Once the installation is complete, open the **Start Menu** and launch the **AWS Schema Conversion Tool** or you can double click on the SCT orange box icon on the desktop.
 
 1. Accept the **Terms and Conditions**.
+
+    ![Installing SCT](/images/1/4/1008.png?width=90pc)
 
 {{% notice note %}}
 Aurora MySQL will need some additional permissions before we run SCT, so make your you did the following steps before proceeding to the next section.

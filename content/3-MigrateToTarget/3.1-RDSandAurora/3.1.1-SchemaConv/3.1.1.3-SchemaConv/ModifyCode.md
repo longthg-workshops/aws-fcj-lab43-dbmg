@@ -13,6 +13,8 @@ The first three steps is for SQL Server source only. If you use the Oracle sourc
 
 1. From the left panel, uncheck the items with the exclamation mark except for the generateTransferActivity procedure.
 
+    ![Procedural code change](/images/3/1/1/3/a/0001.png?width=80pc)
+
 1. Next, click on the **generateTransferActivity** procedure. Observe how the SCT highlights the issue, stating that MySQL does not support the **PRINT** procedure. To fix this, you need to replace the three highlighted **PRINT** statements with SELECT statement as demonstrated in the following example: 
 
     _**Note:** suggest you use -- in front of current PRINT line to comment it out then copy and paste the correct syntax for the first 2 occurences then copy the last correct syntax for the last one. You'll need to do this all in 1 edit session so arrow down after going to the firt line_
@@ -36,19 +38,31 @@ The first three steps is for SQL Server source only. If you use the Oracle sourc
 
     _**Note:** For non-SQL Server sources (e.g. Oracle), it says step 4. However, this is really your first step on this page. Thanks for your understanding!!_
 
+    ![Procedural code change](/images/3/1/1/3/a/0002.png?width=80pc)
+
 1. Right click on the **dms_sample** database in the left panel and select **Convert Schema** to generate the data definition language (DDL) statements for the target database.
+
+    ![Procedural code change](/images/3/1/1/3/a/0003.png?width=80pc)
 
 1. When warned that objects may already exist in database, click **Yes**.
 
-{{% notice note %}}
+    {{% notice note %}}
 You may be presented with a different message stating **“The operation will be partially performed”** and only 3 of the 8 objects will be converted. Click **OK**.
-{{% /notice %}}
+    {{% /notice %}}
 
-6. Right click on the **dms_sample > dbo (SQL Server source)** or **dms_sample (other sources)** schema in the right-hand panel, and click **Apply to database**.
+    ![Procedural code change](/images/3/1/1/3/a/0004.png?width=80pc)
+
+1. Right click on the **dms_sample > dbo (SQL Server source)** or **dms_sample (other sources)** schema in the right-hand panel, and click **Apply to database**.
+
+    ![Procedural code change](/images/3/1/1/3/a/0005.png?width=80pc)
 
 1. When prompted if you want to apply the schema to the database, click **Yes**.
 
+    ![Procedural code change](/images/3/1/1/3/a/0006.png?width=80pc)
+
 1. At this point, the schema has been applied to the target database. Expand the **dms_sample_dbo** or **dms_sample** schema on the right hand panel to see the tables, views, store procedures etc.
+
+    ![Procedural code change](/images/3/1/1/3/a/0007.png?width=80pc)
 
 You have sucessfully converted the database schema and object from source to the format compatible with Amazon Aurora (MySQL).
 
