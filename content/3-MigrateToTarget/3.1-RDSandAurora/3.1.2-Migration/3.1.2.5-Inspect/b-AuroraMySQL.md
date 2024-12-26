@@ -5,6 +5,8 @@ chapter: false
 pre: "<b> b. </b>"
 ---
 
+In this page, you will inspect the target database after migration.
+
 1. Open **MySQL Workbench 8.0 CE** from within the EC2 server, and click on Target Aurora RDS (MySQL) database connection that you created earlier.
 
 1. Inspect the migrated data, by querying one of the tables in the target database. For example, the following query should return a table with two rows:

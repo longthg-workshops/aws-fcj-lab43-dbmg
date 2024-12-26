@@ -5,6 +5,8 @@ chapter: false
 pre: "<b> d. </b>"
 ---
 
+In this page, you will inspect the target database after migration.
+
 1. Open **Microsoft SQL Server Management Studio** from within the RDP-ed onto EC2 server.
 
 1. Follow the instructions described earlier to connect to the Target RDS SQL Server instance.

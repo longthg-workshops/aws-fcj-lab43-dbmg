@@ -5,6 +5,8 @@ chapter: false
 pre: "<b> c. </b>"
 ---
 
+In this page, you will inspect the target database after migration.
+
 1. Open **pgAdmin4** from within the EC2 server, and then connect to the Target Aurora RDS (PostgreSQL) database connection that you created earlier.
 
 1. Inspect the migrated data, by querying one of the tables in the target database. For example, the following query should return a table with two rows:

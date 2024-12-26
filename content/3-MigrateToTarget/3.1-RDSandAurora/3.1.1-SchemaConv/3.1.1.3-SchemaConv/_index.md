@@ -48,11 +48,7 @@ Now that you have created a new Database Migration Project, the next step is to 
 
     However, for the sake of time, we skip modifying all the objects that could not be automatically converted. Instead, as an example, you will manually modify one of the stored procedures from within SCT to make it compatible with the target database. 
     
-    This is demonstrated in this subsection:
-
-    {{% expand ">> Expand this" %}}
-    {{% children description="true" /%}}
-    {{% /expand %}}
+    This is demonstrated in [this subsection](./ModifyCode).
 
 
 1. Click on the `**dms_sample**` for Oracle or dbo for sql server schema in the left-hand panel, and click **Convert Schema**.

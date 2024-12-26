@@ -27,4 +27,4 @@ In this exercise you perform the following tasks:
 
 - Summary
 
-![Infra Architecture](/images/2/2/0001.png?width=80pc)
+![Infrastructure](/images/3/1/0001.png?width=80pc)
