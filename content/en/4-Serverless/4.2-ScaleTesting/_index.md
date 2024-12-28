@@ -5,11 +5,11 @@ chapter: false
 pre: "<b> 4.2. </b>"
 ---
 
-In this lab, you will explore how AWS DMS Serverless can automatically scale its capacity based on the load from the source system. The primary objective of this load test is to demonstrate the adaptive scalability of DMS Serverless in real-world scenarios. In production environments, data migration workloads can vary significantly, with periods of high activity requiring increased resources and periods of low activity where resources can be minimized to optimize cost. This dynamic scaling feature helps ensure that migrations continue smoothly, even as the load on the source system fluctuates, without requiring manual intervention for capacity adjustments.
+In this lab, you will explore how **AWS DMS Serverless** can automatically scale its capacity based on the load from the source system. The primary objective of this load test is to demonstrate the adaptive scalability of DMS Serverless in real-world scenarios. In production environments, data migration workloads can vary significantly, with periods of high activity requiring increased resources and periods of low activity where resources can be minimized to optimize cost. This dynamic scaling feature helps ensure that migrations continue smoothly, even as the load on the source system fluctuates, without requiring manual intervention for capacity adjustments.
 
 ### Social Media Platform Load Testing with AWS DMS Serverless
 
-Imagine you're managing a social media platform where users can post content, upvote or downvote posts, and interact with others. This platform experiences typical periods of activity, but during peak times—like when a viral post hits or a major event unfolds—the traffic surges dramatically. Posts are created, users engage with content, and votes start pouring in.
+Imagine you're managing a social media platform where users can post content, upvote or downvote posts, and interact with others. This platform experiences typical periods of activity, but during peak times — like when a viral post hits or a major event unfolds — the traffic surges dramatically. Posts are created, users engage with content, and votes start pouring in.
 
 To handle these spikes, the system needs to scale its resources quickly and efficiently. That’s where **AWS DMS Serverless** comes into play. In this lab, we’ll simulate such a scenario by generating a significant amount of data activity within your on-premise data center and replicating it to AWS for further processing. We will observe how **DMS Serverless** responds to the increasing load and automatically scales its capacity.
 

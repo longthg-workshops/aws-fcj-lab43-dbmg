@@ -1,5 +1,5 @@
 ---
-title: "Select your DMS Target"
+title: "Chọn CSDL đích cho DMS"
 weight: 3
 chapter: false
 pre: "<b> 3. </b>"
