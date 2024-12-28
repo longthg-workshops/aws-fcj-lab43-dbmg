@@ -19,7 +19,7 @@ Bây giờ bạn đã tạo một Dự án di chuyển cơ sở dữ liệu mớ
 
 ![Đánh giá Oracle](/images/3/1/3/0002.png?width=80pc)
 
-    {% /expand %}}
+    {{% /expand %}}
 
 AWS SCT phân tích lược đồ và tạo báo cáo đánh giá di chuyển cơ sở dữ liệu để chuyển đổi sang PostgreSQL. Các mục có dấu chấm than màu đỏ bên cạnh không thể được dịch trực tiếp từ nguồn sang đích. Điều này bao gồm Quy trình được lưu trữ và Gói.
 
