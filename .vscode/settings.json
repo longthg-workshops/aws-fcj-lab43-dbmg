@@ -1,5 +1,8 @@
 {
     "yaml.schemas": {
-        "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json": "file:///c%3A/Users/HGKG/Desktop/DMSWorkshop.yaml"
+        "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json": [
+            "file:///c%3A/Users/HGKG/Desktop/DMSWorkshop.yaml",
+            "file:///e%3A/Working/AWS/Workshop/Update/aws-fcj-lab43-dbmg/static/workloads/DMSWorkshop2025.yaml"
+        ]
     }
 }

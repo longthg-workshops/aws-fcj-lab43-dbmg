@@ -11,7 +11,7 @@ Trong bước này, bạn sẽ sử dụng mẫu CloudFormation (CFN) để tri�
 
     ![CFn Stacks menu](/images/1/3/0001.png?width=60pc)
 
-1. Chọn **Template is ready** và chọn **Upload a template file** làm mẫu nguồn. Sau đó, nhấp vào **Choose file** và tải lên [DMSWorkshop.yaml](https://static.us-east-1.prod.workshops.aws/public/9b44f2ff-63cb-460b-86c6-2e1e30e219b7/static/DMSWorkshop.yaml). Nhấp vào **Next**.
+1. Chọn **Template is ready** và chọn **Upload a template file** làm mẫu nguồn. Sau đó, nhấp vào **Choose file** và tải lên [DMSWorkshop2025.yaml](/workloads/DMSWorkshop2025.yaml). Nhấp vào **Next**.
 
     ![Upload template file](/images/1/3/0002.png?width=60pc)
 

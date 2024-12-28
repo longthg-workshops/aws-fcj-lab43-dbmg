@@ -11,7 +11,7 @@ In this step, you will use a CloudFormation (CFN) template to deploy the infrast
 
     ![CFn Stacks menu](/images/1/3/0001.png?width=60pc)
 
-1. Select **Template is ready**, and choose **Upload a template file** as the source template. Then, click on **Choose file** and upload the [DMSWorkshop.yaml](https://static.us-east-1.prod.workshops.aws/public/9b44f2ff-63cb-460b-86c6-2e1e30e219b7/static/DMSWorkshop.yaml). Click **Next**.
+1. Select **Template is ready**, and choose **Upload a template file** as the source template. Then, click on **Choose file** and upload the [DMSWorkshop2025.yaml](/workloads/DMSWorkshop2025.yaml). Click **Next**.
 
     ![Upload template file](/images/1/3/0002.png?width=60pc)
 

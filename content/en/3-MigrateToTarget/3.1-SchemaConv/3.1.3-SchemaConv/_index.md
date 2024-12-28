@@ -66,13 +66,13 @@ For Oracle it will look like below and for other databases similar except that d
 
     {{% expand ">> For Oracle Source expand here" %}}
 
-    ![MSSQL Action](/images/3/1/3/0006-a.png?width=80pc)
+![MSSQL Action](/images/3/1/3/0006-a.png?width=80pc)
 
     {{% /expand %}}
 
     {{% expand ">> For SQL Server Source expand here" %}}
 
-    ![MSSQL Action](/images/3/1/3/0006-b.png?width=80pc)
+![MSSQL Action](/images/3/1/3/0006-b.png?width=80pc)
 
     {{% /expand %}}
 
