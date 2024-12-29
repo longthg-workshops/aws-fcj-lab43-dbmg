@@ -13,14 +13,14 @@ Hướng dẫn từng bước này trình bày cách bạn có thể sử dụng
 
 1. Cấu hình cơ sở dữ liệu nguồn của bạn bằng cách chọn một trong các liên kết sau:
 
-- [SQL Server làm nguồn](../../2-SelectSource/2.2-SqlSrv/)
+    - [SQL Server làm nguồn](../../2-SelectSource/2.2-SqlSrv/)
 
-- [Oracle làm nguồn](../../2-SelectSource/2.1-Oracle/)
+    - [Oracle làm nguồn](../../2-SelectSource/2.1-Oracle/)
 
 1. Tạo điểm cuối Nguồn và Đích:
 
-- [Aurora MySQL làm Đích](../../3-SelectTarget/3.1-AuroraMySQL/3.1.2-Migration/3.1.2.3-CreateEndpoint)
+    - [Aurora MySQL làm Đích](../../3-SelectTarget/3.1-AuroraMySQL/3.1.2-Migration/3.1.2.3-CreateEndpoint)
 
-- Aurora PostgreSQL làm Đích
+    - Aurora PostgreSQL làm Đích
 
 Sau khi bạn đã cấu hình cơ sở dữ liệu nguồn và tạo điểm cuối nguồn và đích. Bạn có thể tiến hành tạo tác vụ Sao chép không có máy chủ.

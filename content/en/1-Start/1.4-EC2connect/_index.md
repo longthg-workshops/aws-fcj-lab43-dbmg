@@ -36,11 +36,19 @@ _(RDP Approach is after this section if you have chosen that way. You can skip t
 
 1. Go to the [AWS Fleet Manger console](https://console.aws.amazon.com/systems-manager/managed-instances) and click on the instance with a name that ends with **_-EC2Instance_** (if you start on the Fleet Manager dashboard click the **Getting Started** Button) then select Node actions button and select **Connect with Remote Desktop** as show in the image below (if you get a something went wrong message or don't see an instance make sure you are in the correct region for your event)
 
+    ![FleetMgr](/images/1/4/Fl-001.png?width=60pc)
+
+    ![FleetMgr](/images/1/4/Fl-002.png?width=60pc)
+
 1. Select the **Key pair** radio button then select **Browse** to find the key pair downloaded to your local machine. You should have downloaded the key pair earlier (covered in the [**Getting started**](../../1-Start/) section under download key pair). If you have not, go to **Key pair** in the **Amazon EC2 Console** and download it now.
 
 1. Click **Connect**.
 
+    ![FleetMgr](/images/1/4/Fl-003.png?width=60pc)
+
 1. Click **No** on the right sidebar **Networks > Network 10** when asked **_Do you want to allow your PC to be discoverable....?_** on the right if it shows up.
+
+    ![FleetMgr](/images/1/4/Fl-004.png?width=60pc)
 
 {{% notice info %}}
 If you have successfully connected to the EC2 desktop via **Fleet Manager**, you can now proceed to the next section of your lab. Otherwise...

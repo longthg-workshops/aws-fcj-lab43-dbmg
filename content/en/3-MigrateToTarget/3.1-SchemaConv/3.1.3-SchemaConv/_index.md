@@ -83,7 +83,7 @@ For Oracle it will look like below and for other databases similar except that d
 You may see an exclamation mark on certain database objects such as indexes, and foreign key constraints. In the next section we will drop foreign key target database.
     {{% /notice %}}
 
-1. At this point, the schema has been applied to the target database. Expand the **_dms_sample_dbo_** or **_dms_sample_** schema on the right hand pane to see the tables, views, procedures, etc. Note please expand per source below as some have extra steps specifically SQL Server requires additional steps
+1. At this point, the schema has been applied to the target database. Expand the **_dms_sample_dbo_** or **_dms_sample_** schema on the right hand pane to see the tables, views, procedures, etc. Note please expand per source below as some have extra steps specifically SQL Server requires additional steps.
 
     {{% expand ">> For SQL Server Source expand here" %}}
 

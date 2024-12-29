@@ -80,9 +80,9 @@ Tuy nhiên, để tiết kiệm thời gian, chúng ta bỏ qua việc sửa đ�
 Bạn có thể thấy dấu chấm than trên một số đối tượng cơ sở dữ liệu như chỉ mục và ràng buộc khóa ngoại. Trong phần tiếp theo, chúng ta sẽ xóa cơ sở dữ liệu mục tiêu khóa ngoại.
 {{% /notice %}}
 
-1. Tại thời điểm này, lược đồ đã được áp dụng cho cơ sở dữ liệu mục tiêu. Mở rộng lược đồ **_dms_sample_dbo_** hoặc **_dms_sample_** trên ngăn bên phải để xem các bảng, chế độ xem, quy trình, v.v. Lưu ý, vui lòng mở rộng theo nguồn bên dưới vì một số có các bước bổ sung cụ thể là SQL Server yêu cầu các bước bổ sung
+1. Tại thời điểm này, lược đồ đã được áp dụng cho cơ sở dữ liệu mục tiêu. Mở rộng lược đồ **_dms_sample_dbo_** hoặc **_dms_sample_** trên ngăn bên phải để xem các bảng, chế độ xem, quy trình, v.v. _**Lưu ý:** Nếu bạn dùng hệ CSDL MS SQL Server, hãy mở và làm theo đoạn bên dưới vì một số có các bước bổ sung cụ thể là SQL Server yêu cầu các bước bổ sung._
 
-{{% expand ">> Đối với nguồn SQL Server expand here" %}}
+    {{% expand ">> Đối với nguồn SQL Server, hãy mở phần này" %}}
 
 1. Để chuẩn bị cho các bước sau này, chúng ta sẽ cần tạo tập lệnh sql cho các ràng buộc mà chúng ta vừa thêm vào mục tiêu. Để thực hiện việc này, trước tiên chúng ta muốn thay đổi cài đặt dự án từ menu **Cài đặt** ở trên cùng và chọn **Cài đặt dự án** như được hiển thị bên dưới.
 ![MSSQL Extra](/images/3/1/3/0007.png?width=80pc)
@@ -99,8 +99,8 @@ Bạn có thể thấy dấu chấm than trên một số đối tượng cơ s�
 
 ![MSSQL Extra](/images/3/1/3/0010.png?width=80pc)
 
-{{% /expand %}}
+    {{% /expand %}}
 
 Bạn đã chuyển đổi thành công lược đồ cơ sở dữ liệu và đối tượng từ nguồn sang Amazon Aurora.
 
-Phần này chứng minh cách dễ dàng di chuyển lược đồ của cơ sở dữ liệu nguồn sang Amazon Aurora PostgreSQL bằng Công cụ chuyển đổi lược đồ AWS. Tương tự như vậy, bạn đã tìm hiểu cách Công cụ chuyển đổi lược đồ làm nổi bật sự khác biệt giữa các phương ngữ công cụ cơ sở dữ liệu khác nhau và cung cấp cho bạn các mẹo về cách bạn có thể sửa đổi mã thành công khi cần di chuyển thủ tục và các đối tượng cơ sở dữ liệu khác.
+Phần này chứng minh việc di chuyển lược đồ của cơ sở dữ liệu nguồn sang Amazon Aurora PostgreSQL dễ dàng thế nào nhờ Schema Conversion Tool (công cụ chuyển đổi lược đồ). Tương tự như vậy, bạn đã tìm hiểu cách Công cụ chuyển đổi lược đồ làm nổi bật sự khác biệt giữa các phương ngữ công cụ cơ sở dữ liệu khác nhau và cung cấp cho bạn các mẹo về cách bạn có thể sửa đổi mã thành công khi cần di chuyển thủ tục và các đối tượng cơ sở dữ liệu khác.

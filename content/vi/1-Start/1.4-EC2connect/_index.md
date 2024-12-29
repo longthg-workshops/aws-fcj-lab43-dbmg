@@ -25,7 +25,7 @@ _(Hướng sử dụng RDP truyền thống nằm sau phần này. Bạn có th�
 
 {{% notice note %}}
 
-**_Lưu ý 1:_** Nếu sử dụng Fleet Manager để kết nối, chúng tôi khuyên bạn nên sử dụng trình duyệt dựa trên Chrome vì các trình duyệt không dựa trên Chrome có thể không hỗ trợ sao chép và dán. Bạn cũng nên mở trình duyệt bên trong phiên bản RDP và truy cập vào url đầy đủ của **AWS Database Migration Workshop** (https://catalog.workshops.aws/databasemigration), sau đó bạn có thể cắt và dán bên trong phiên bản.
+**_Lưu ý 1:_** Nếu sử dụng Fleet Manager để kết nối, chúng tôi khuyên bạn nên sử dụng trình duyệt dựa trên Chrome vì các trình duyệt không dựa trên Chrome có thể không hỗ trợ sao chép và dán. Bạn cũng nên mở trình duyệt bên trong phiên RDP và truy cập vào url đầy đủ của **AWS Database Migration Workshop** (https://catalog.workshops.aws/databasemigration), sau đó bạn có thể cắt và dán bên trong máy ảo.
 \
 \
 **_Lưu ý 2:_** Với Chrome, đôi khi bạn vẫn phải phóng to/toàn màn hình cửa sổ RDP rồi quay lại chế độ chuẩn hoặc thậm chí ngắt và kết nối lại hoàn toàn để sao chép và dán hoạt động.
@@ -37,11 +37,19 @@ _(Hướng sử dụng RDP truyền thống nằm sau phần này. Bạn có th�
 
 1. Đi đến [Bảng điều khiển AWS Fleet Manger](https://console.aws.amazon.com/systems-manager/managed-instances) và nhấp vào phiên bản có tên kết thúc bằng **_-EC2Instance_** (nếu bạn bắt đầu trên bảng điều khiển Fleet Manager, hãy nhấp vào Nút **Getting Started**) sau đó chọn nút Hành động nút và chọn **Connect with Remote Desktop** như hiển thị trong hình ảnh bên dưới (nếu bạn nhận được thông báo có sự cố hoặc không thấy phiên bản nào, hãy đảm bảo bạn đang ở đúng vùng cho sự kiện của mình)
 
+    ![FleetMgr](/images/1/4/Fl-001.png?width=60pc)
+
+    ![FleetMgr](/images/1/4/Fl-002.png?width=60pc)
+
 1. Chọn nút tùy chọn **Key pair** sau đó chọn **Browse** để tìm cặp khóa đã tải xuống máy cục bộ của bạn. Bạn phải tải xuống cặp khóa trước đó (được đề cập trong phần [**Bắt đầu**](../../1-Start/) trong mục tải xuống cặp khóa). Nếu bạn chưa tải xuống, hãy đi đến **Key pair** trong **Bảng điều khiển Amazon EC2** và tải xuống ngay bây giờ.
 
-1. Nhấp vào **Kết nối**.
+1. Nhấp vào **Connect**.
+
+    ![FleetMgr](/images/1/4/Fl-003.png?width=60pc)
 
 1. Nhấp vào **No** trên thanh bên phải **Networks > Network 10** khi được hỏi **_Do you want to allow your PC to be discoverable....?_** ở bên phải nếu tùy chọn này hiển thị.
+
+    ![FleetMgr](/images/1/4/Fl-004.png?width=60pc)
 
 {{% notice info %}}
 Nếu bạn đã kết nối thành công với máy tính để bàn EC2 qua **Fleet Manager**, bây giờ bạn có thể tiến hành phần tiếp theo của phòng thí nghiệm. Nếu chưa...
