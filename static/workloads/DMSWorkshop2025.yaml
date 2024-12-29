@@ -415,6 +415,24 @@ Resources:
         - - dms-sc
           - !Ref "AWS::AccountId"
           - !Ref "AWS::StackName"
+
+  # s3BucketPolicy:
+  #   Type: AWS::S3::BucketPolicy
+  #   Properties:
+  #     Bucket: !Ref DMSMigrationBucket
+  #     PolicyDocument:
+  #       Version: '2012-10-17'
+  #       Statement:
+  #       - Sid: AllowAll
+  #         Effect: Allow
+  #         Principal:
+  #           AWS: "*"
+  #         Action: 
+  #         - "s3:*"
+  #         Resource:
+  #           - !Sub "arn:aws:s3:::dms-sc-${AWS::AccountId}-${AWS::StackName}"
+  #           - !Sub "arn:aws:s3:::dms-sc-${AWS::AccountId}-${AWS::StackName}/*"
+
   # code to add to base Sept 2024
   DMSMigrationProjectRole:
     Type: AWS::IAM::Role
