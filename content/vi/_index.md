@@ -14,10 +14,10 @@ SCT và Chuyển đổi & Di chuyển trong bảng điều khiển đều giúp 
 
 ![Schema Conversion](/images/0-home/0001.png?width=50pc)
 
-### Data Migration
+### Di dời CSDL
 
-After you have completed the schema conversion, you'll need to move the data itself. In case of production databases, you may not be able to afford very little downtime during the migration. Moreover, you may want to keep the transactions from source and target database in sync until you switch your application to the new target.
+Sau khi hoàn tất chuyển đổi lược đồ, bạn sẽ cần di chuyển chính dữ liệu. Trong trường hợp cơ sở dữ liệu sản xuất, bạn có thể không đủ khả năng để có rất ít thời gian chết trong quá trình di chuyển. Hơn nữa, bạn có thể muốn giữ các giao dịch từ cơ sở dữ liệu nguồn và đích đồng bộ cho đến khi bạn chuyển ứng dụng của mình sang đích mới.
 
-The AWS Database Migration Service helps you migrate the data from the source database to the target database easily and securely. AWS DMS supports data migration to and from most widely used commercial and open-source databases. The source database can be located in your on-premises environment, running on an Amazon EC2 instance, or it can be an Amazon RDS database. The target can be a database on Amazon EC2 or Amazon RDS. The target can also be non-relational like S3, Stream like Kafka/Kinesis, DocumentDB or DynamoDB etc. Additionally, the source database remains fully operational during the migration, minimizing downtime to applications that rely on the database.
+Dịch vụ di chuyển cơ sở dữ liệu AWS giúp bạn di chuyển dữ liệu từ cơ sở dữ liệu nguồn sang cơ sở dữ liệu đích một cách dễ dàng và an toàn. AWS DMS hỗ trợ di chuyển dữ liệu đến và đi từ hầu hết các cơ sở dữ liệu thương mại và nguồn mở được sử dụng rộng rãi. Cơ sở dữ liệu nguồn có thể được đặt trong môi trường tại chỗ của bạn, chạy trên phiên bản Amazon EC2 hoặc có thể là cơ sở dữ liệu Amazon RDS. Mục tiêu có thể là cơ sở dữ liệu trên Amazon EC2 hoặc Amazon RDS. Mục tiêu cũng có thể không liên quan như S3, Stream như Kafka/Kinesis, DocumentDB hoặc DynamoDB, v.v. Ngoài ra, cơ sở dữ liệu nguồn vẫn hoạt động đầy đủ trong quá trình di chuyển, giảm thiểu thời gian chết cho các ứng dụng dựa vào cơ sở dữ liệu.
 
 ![Migration](/images/0-home/0002.png?width=50pc)
