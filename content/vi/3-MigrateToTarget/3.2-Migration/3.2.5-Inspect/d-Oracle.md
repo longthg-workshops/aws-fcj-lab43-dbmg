@@ -9,15 +9,15 @@ In this page, you will inspect the target database after migration.
 
 1. Go back to the EC2 instance we used earlier, once connected, open Oracle SQL Developer, and click the green button to add a new connection using the following values:
 
-|  Parameter	 |  Value  |
-|----------------|-------------------|
-|  Connection Name	 |  Target Oracle  |
-|  User Name	 |  dbadmin  |
-|  Password	 |  See **Cloudformation Output** tab & **_DMSDBSecretP_** or look it up in AWS Secrets Manager for Oracle target  |
-|  Save Password	 |  Check  |
-|  Hostname	 |  < TargetOracle Endpoint (you can find this in Cloudformation Output tab or goto RDS service in console and pick your RDS Oracle Target instance>  |
-|  Port	 |  1521  |
-|  SID/Service Name	 |  TargetDB  |
+    |  Parameter	 |  Value  |
+    |----------------|-------------------|
+    |  Connection Name	 |  Target Oracle  |
+    |  User Name	 |  dbadmin  |
+    |  Password	 |  See **Cloudformation Output** tab & **_DMSDBSecretP_** or look it up in AWS Secrets Manager for Oracle target  |
+    |  Save Password	 |  Check  |
+    |  Hostname	 |  < TargetOracle Endpoint (you can find this in Cloudformation Output tab or goto RDS service in console and pick your RDS Oracle Target instance>  |
+    |  Port	 |  1521  |
+    |  SID/Service Name	 |  TargetDB  |
 
     ![](/images/3/2/5/d/0001.png?width=80pc)
 
